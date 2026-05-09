@@ -15,7 +15,7 @@ export function About() {
             Mais de uma década protegendo <span className="text-gradient">pessoas, lares e negócios.</span>
           </h2>
           <p className="mt-6 text-muted-foreground text-lg leading-relaxed">
-            A Sentinel Sec nasceu da paixão por tecnologia e segurança. Combinamos engenharia de redes, automação e vigilância eletrônica para entregar soluções que realmente funcionam — projetadas sob medida para cada cliente.
+            A R.D Segurity nasceu da paixão por tecnologia e segurança. Combinamos engenharia de redes, automação e vigilância eletrônica para entregar soluções que realmente funcionam — projetadas sob medida para cada cliente.
           </p>
           <p className="mt-4 text-muted-foreground leading-relaxed">
             Trabalhamos com as principais marcas do mercado: Intelbras, Hikvision, JFL, Ubiquiti, Mikrotik e mais.

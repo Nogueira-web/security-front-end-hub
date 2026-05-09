@@ -11,7 +11,7 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "Sentinel Sec — Segurança Eletrônica, Redes e Tecnologia" },
+      { title: "R.D Segurity — Segurança Eletrônica, Redes e Tecnologia" },
       { name: "description", content: "Empresa de segurança eletrônica: CFTV, alarmes, controle de acesso, cerca elétrica, automação, redes e manutenção de computadores. Projetos sob medida com monitoramento 24/7." },
     ],
   }),

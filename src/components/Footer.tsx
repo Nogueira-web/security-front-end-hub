@@ -6,10 +6,10 @@ export function Footer() {
       <div className="container mx-auto px-6 py-10 flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="flex items-center gap-2">
           <Shield className="h-5 w-5 text-primary" strokeWidth={1.5} />
-          <span className="font-display font-bold tracking-widest text-sm">SENTINEL<span className="text-primary">.</span>SEC</span>
+          <span className="font-display font-bold tracking-widest text-sm">R.D<span className="text-primary"> </span>SEGURITY</span>
         </div>
         <p className="text-xs text-muted-foreground uppercase tracking-widest">
-          © {new Date().getFullYear()} Sentinel Sec — Todos os direitos reservados
+          © {new Date().getFullYear()} R.D Segurity — Todos os direitos reservados
         </p>
       </div>
     </footer>
