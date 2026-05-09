@@ -14,7 +14,7 @@ export function Hero() {
         <div className="space-y-8 scanline relative">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-primary/40 bg-primary/10 text-xs uppercase tracking-[0.2em] text-primary">
             <span className="w-2 h-2 rounded-full bg-accent animate-pulse" />
-            Monitoramento 24/7
+            Monitoramento 24 horas
           </div>
           <h1 className="text-5xl md:text-7xl font-bold leading-[1.05]">
             Proteção <span className="text-gradient">inteligente</span> para o que mais importa.
