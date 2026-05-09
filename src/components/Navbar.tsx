@@ -17,7 +17,7 @@ export function Navbar() {
             <div className="absolute inset-0 blur-md bg-primary/40 -z-10" />
           </div>
           <span className="font-display font-bold text-lg tracking-widest">
-            SENTINEL<span className="text-primary">.</span>SEC
+            R.D<span className="text-primary"> </span>SEGURITY
           </span>
         </a>
         <ul className="hidden md:flex items-center gap-8 text-sm font-medium">

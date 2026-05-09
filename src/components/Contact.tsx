@@ -17,7 +17,7 @@ export function Contact() {
           <div className="mt-10 space-y-5">
             {[
               { icon: Phone, label: "Telefone", value: "(11) 99999-0000" },
-              { icon: Mail, label: "E-mail", value: "contato@sentinelsec.com.br" },
+              { icon: Mail, label: "E-mail", value: "contato@rdsegurity.com.br" },
               { icon: MapPin, label: "Endereço", value: "Av. Paulista, 1000 — São Paulo / SP" },
             ].map((c) => (
               <div key={c.label} className="flex items-center gap-4">
