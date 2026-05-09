@@ -1,7 +1,7 @@
 import { Clock, Award, Headphones, Wrench } from "lucide-react";
 
 const features = [
-  { icon: Clock, title: "24/7 Operacional", desc: "Equipe de plantão e sistemas que nunca dormem." },
+  { icon: Clock, title: "24 horas por dia", desc: "Equipe de plantão e sistemas que nunca dormem." },
   { icon: Award, title: "Certificados", desc: "Técnicos qualificados e equipamentos homologados." },
   { icon: Headphones, title: "Suporte Imediato", desc: "Atendimento ágil via WhatsApp, telefone ou e-mail." },
   { icon: Wrench, title: "Manutenção Preventiva", desc: "Planos mensais para garantir 100% de funcionamento." },
