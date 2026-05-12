@@ -1,9 +1,31 @@
+import { Github, Linkedin } from "lucide-react";
+
 export function Team() {
   const members = [
-    { name: "Rafael Dias", role: "CEO & Fundador", img: "https://i.pravatar.cc/300?img=12" },
-    { name: "Marina Costa", role: "Engenheira de Redes", img: "https://i.pravatar.cc/300?img=47" },
-    { name: "Lucas Pereira", role: "Técnico em CFTV", img: "https://i.pravatar.cc/300?img=33" },
-    { name: "Ana Oliveira", role: "Suporte & Atendimento", img: "https://i.pravatar.cc/300?img=45" },
+    {
+      name: "Rodrigo Nogueira",
+      role: "Gestor em TI",
+      github: "Nogueira-web",
+      linkedin: "https://linkedin.com/in/rodrigo-nogueira-code",
+    },
+    {
+      name: "Marília Goulart",
+      role: "Gestora em TI",
+      github: "marilhosa",
+      linkedin: "https://www.linkedin.com/in/marilia-goulart-tech/",
+    },
+    {
+      name: "Daniel",
+      role: "Gestor em TI",
+      github: "dannimts",
+      linkedin: "",
+    },
+    {
+      name: "Wagner",
+      role: "Analista de Sistema",
+      github: "0000000000000000000000000000000000009",
+      linkedin: "https://www.linkedin.com/in/wagner-junior-96a834376",
+    },
   ];
 
   return (
@@ -21,7 +43,7 @@ export function Team() {
             <div key={m.name} className="group flex flex-col items-center text-center">
               <div className="relative w-40 h-40 rounded-full overflow-hidden border-2 border-border group-hover:border-primary transition-colors">
                 <img
-                  src={m.img}
+                  src={`https://github.com/${m.github}.png`}
                   alt={`Foto de ${m.name}`}
                   loading="lazy"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
@@ -29,6 +51,28 @@ export function Team() {
               </div>
               <h3 className="mt-5 text-lg font-semibold">{m.name}</h3>
               <p className="text-sm text-muted-foreground mt-1">{m.role}</p>
+              <div className="mt-3 flex items-center gap-3">
+                <a
+                  href={`https://github.com/${m.github}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={`GitHub de ${m.name}`}
+                  className="text-muted-foreground hover:text-primary transition-colors"
+                >
+                  <Github className="w-5 h-5" />
+                </a>
+                {m.linkedin && (
+                  <a
+                    href={m.linkedin}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={`LinkedIn de ${m.name}`}
+                    className="text-muted-foreground hover:text-primary transition-colors"
+                  >
+                    <Linkedin className="w-5 h-5" />
+                  </a>
+                )}
+              </div>
             </div>
           ))}
         </div>
